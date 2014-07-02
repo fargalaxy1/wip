@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+
+    <title> Mad(e) for Nature </title>
+    
+    <meta name="author" content="Planeteers">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--   <link href="/home/giovamt/Work/WEB/myWebD/scrolling/_css/application.css" rel="stylesheet"> -->
+    <link href="/home/giovamt/work/web/mine/scrolling/_css/application.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="main-page">
+    <nav class="main">
+      <ul>
+        <li> <a href="#home">home</a></li>
+        <li> <a href="#about">about</a></li>
+        <li> <a href="#science">science</a></li>
+        <li> <a href="#photography">photography</a></li>
+
+      </ul>    
+    </nav> 
+    <section id="home"class="homepage-header background">
+        <img class="stretch" width="3569" height="1200" src = "_media/homePage_1.1.jpg" style="opacity: 1; height: 1200px; max-width: auto; min-width:3569px ;margin-top: 0px;">
+        <div class="madefn-caption">
+          <!-- <div class="container"> -->
+            <h2>mad(e) for Nature</h2>
+            <!-- <p class="subheading">more more..</p> -->
+          <!-- </div> -->
+        </div>
+      </section>
+      <section id="about" style="height: 1000px">
+        <article>
+        <div class="container">
+          <div class="row center">
+            <div class="block-1 fancyText" >
+              <h3> about</h3>
+            </div>
+            <div class="block-1 stdText" >
+              <h3> This is an insight Into my life This is a strange flight I'm taking My true will Carries me along This is a soul dance Embracing me This is the first chance To put things right Moving on guided by the light And the spirit of love Is rising within me Talking to you now Telling you clearly The fire still burns Wisdom of ages Rush And the spirit of love Is rising within me Talking to you now Telling you clearly The fire still burns </h3>
+            </div>
+          </div>
+        </div>
+      </article>
+          </section>
+
+        <section id="science">
+        <div class="homepage-header background">
+          <img class="stretch" width="1496" height="703" src = "_media/milleniumSimulation.jpg" style="opacity: 1; height: 703px; margin-top: 0px;">
+          <div class="madefn-caption">
+            <div class="container">
+              <h2>Science</h2>
+          <p>more more..</p>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!--  <div class="row">
+      <div class="pull-quote press-quote col-md-8 col-md-offset-2 col-xs-offset-1">
+      </div>
+    </div> -->
+      <section id="photography">
+
+      <div class="homepage-header background" id="changeColor">
+       <img class="stretch" width="1496" height="703" src = "_media/electricLandscape_SM.jpg" style="opacity: 1; height: 703px; width: 480px; margin-top: 0px; margin-left: 5%;">
+       <img class="stretch" width="1496" height="703" src = "_media/jokulsalor_SMall.jpg" style="opacity: 1; height: 703px; width: 480px; margin-top: 0px; margin-left: 5%;">
+         <img class="stretch" width="1496" height="703" src = "_media/geysir_SM.jpg" style="opacity: 1; height: 703px; width: 480px; margin-top: 0px; margin-left: 5%;">
+       <div class="madefn-caption">
+        <div class="container">
+          <h2>Photography</h2>
+          <p>more more..</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="space-bg">
+      <div class="container">
+        <p >
+          © made for Nature - Martina Giovalli
+        </p>
+    </footer>
+</div>
+    <script src="Welcome%20to%20your%20planet%20-%20Planet%20Labs%20-%20Planet%20Labs_files/jquery_002.js"></script>
+    <script src="Welcome%20to%20your%20planet%20-%20Planet%20Labs%20-%20Planet%20Labs_files/jquery-ui-1.js"></script>
+    <script src="Welcome%20to%20your%20planet%20-%20Planet%20Labs%20-%20Planet%20Labs_files/jquery.js"></script>
+    <script src="Welcome%20to%20your%20planet%20-%20Planet%20Labs%20-%20Planet%20Labs_files/widgets.js"></script>
+    <script src="Welcome%20to%20your%20planet%20-%20Planet%20Labs%20-%20Planet%20Labs_files/underscore.js"></script>
+    <script src="Welcome%20to%20your%20planet%20-%20Planet%20Labs%20-%20Planet%20Labs_files/bootstrap.js"></script>
+    <script src="Welcome%20to%20your%20planet%20-%20Planet%20Labs%20-%20Planet%20Labs_files/application.js"></script>
+    <script src="Welcome%20to%20your%20planet%20-%20Planet%20Labs%20-%20Planet%20Labs_files/tweets.js"></script>
+
+    <script type="text/javascript">
+      window.analytics||(window.analytics=[]),window.analytics.methods=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group","on","once","off"],window.analytics.factory=function(t){return function(){var a=Array.prototype.slice.call(arguments);return a.unshift(t),window.analytics.push(a),window.analytics}};for(var i=0;window.analytics.methods.length>i;i++){var method=window.analytics.methods[i];window.analytics[method]=window.analytics.factory(method)}window.analytics.load=function(t){var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n)},window.analytics.SNIPPET_VERSION="2.0.8",
+      window.analytics.load("j7no7as52h");
+      window.is_blog = false;
+      window.pg_name = "Welcome to your planet - Planet Labs";
+      if (is_blog) {
+        window.analytics.page("Blog Post", pg_name);
+      } else {
+        window.analytics.page(pg_name);
+      }
+    </script>
+  
+  </body>
+
+  </html>

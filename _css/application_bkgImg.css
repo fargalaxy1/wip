@@ -1,0 +1,237 @@
+@import "//fonts.googleapis.com/css?family=Open+Sans:400|Source+Sans+Pro:400,600";
+@font-face {
+    font-family: 'sofadi_oneregular';
+    src: url('_fonts/sofadione-regular-webfont.eot');
+    src: url('_fonts/sofadione-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('_fonts/sofadione-regular-webfont.woff') format('woff'),
+         url('_fonts/sofadione-regular-webfont.ttf') format('truetype'),
+         url('_fonts/sofadione-regular-webfont.svg#sofadi_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*
+@font-face {
+    font-family: "Geogrotesque-Light";
+    src: url("../fonts/2A2BA2_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2A2BA2_0_0.woff") format("woff"), url("../fonts/2A2BA2_0_0.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Geogrotesque-Medium";
+    src: url("../fonts/2A2BA2_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2A2BA2_1_0.woff") format("woff"), url("../fonts/2A2BA2_1_0.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Geogrotesque-Regular";
+    src: url("../fonts/2A2BA2_2_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2A2BA2_2_0.woff") format("woff"), url("../fonts/2A2BA2_2_0.ttf") format("truetype");
+}*/
+html {
+    font-family: 'sofadi_oneregular';
+}
+body {
+    margin: 0;
+   background: rgb(25,33,30);
+
+
+ font-family: 'sofadi_oneregular';
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+[hidden], template {
+    display: none;
+}
+/*   all   */
+*{
+    -moz-box-sizing: border-box;
+}
+
+/* headings */
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-bottom: 16px;
+    margin-top: 32px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: inherit;
+    font-family: 'sofadi_oneregular';
+    font-weight: 300;
+    line-height: 1.1;
+}
+p {
+    margin: 0 0 16px;
+}
+
+/* container */
+
+.container {
+    width: 970px;
+}
+.container {
+    width: 750px;
+}
+@media (min-width: 1200px) {
+.container {
+    width: 1170px;
+}
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container:before, .container:after {
+    content: " ";
+    display: table;
+}
+.container:after {
+    clear: both;
+}
+/* navbar*/
+.navbar {
+    border: 1px solid rgba(0, 0, 0, 0);
+    background: rgb(25,33,30);
+    margin-bottom: 32px;
+    min-height: 120px;
+    margin-bottom: -120px;    
+    position: relative;
+}
+.navbar .navbar-logo {
+
+    background: url("../_media/images108.jpg") scroll left top;
+    text-indent: -9999px;
+}
+
+.navbar-logo {
+    float: left;
+    font-size: 23px;
+    height: 100px;
+    width: 100px;
+    line-height: 32px;
+   -webkit-border-radius: 99px;
+    -moz-border-radius: 99px;
+    border-radius: 99px;
+    background-color:#E3E3E3;
+    margin-top: 10px;    
+
+}
+
+/* end navbar*/
+
+
+*:before, *:after {
+    -moz-box-sizing: border-box;
+}
+.homepage-header.first {
+
+    background: url("../_media/vulcanicHole700.jpg") no-repeat scroll center bottom rgba(0, 0, 0, 0.5);
+ /*   max-height: 100%;
+    max-width: 100%;
+*/
+  /*background-size: contain;*/
+    display: block;
+/*    opacity: 0.5; 
+*/}
+.hero {
+    text-align: center;
+}
+.homepage-header {
+    margin-top: 120px;
+   /*background-size: contain !important;*/
+    height: 700px;
+    width: 100%;
+      -webkit-border-radius: 0px 0px 99px 99px;
+    -moz-border-radius: 0px 0px 99px 99px;
+    border-radius: 0px 0px 99px 99px;
+}
+.madefn-caption {
+    position: relative;
+    top: 100px;
+}
+.madefn-caption  h2{
+    color: #FFFFFF;
+    font-family: 'sofadi_oneregular';
+    font-size: 40px;
+    position: relative;
+    text-transform: uppercase;
+    /*text-indent: -200px; push text to the left
+    opacity: 0.7; 
+
+}
+.madefn-caption p {
+    color: #FFFFFF;
+    font-family: "Open Sans",sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+p.subheading {
+    color: #AAC0CD;
+    font-size: 22px;
+}
+
+.madefn-caption .container {
+    margin-right: auto;
+    margin-bottom: -20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    white-space: nowrap; /*text on the same line*/
+}
+
+#homepage-about {
+    margin-top: 50px;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.row:before, .row:after {
+    content: " ";
+    display: table;
+}
+.row:after {
+    clear: both;
+}
+
+.block-1 {
+min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    float: left;
+    /*width: 33.3333%;*/
+    width: 50%;
+
+}
+.fancyText h3{
+    color: #FFFFFF;
+    font-family: 'sofadi_oneregular';
+    font-size: 100px;
+    position: relative;
+    text-align: left; 
+    font-style: italic;
+   
+}
+.stdText h3{
+    color: #FFFFFF;
+    font-family: 'sofadi_oneregular';
+    position: relative;
+    text-align: center;    
+
+}
+
+.homepage-header.science {
+
+/*    background: url("../_media/vestmannVolcano_croppped.jpg") no-repeat scroll center bottom rgba(0, 0, 0, 0.5);
+*/ 
+   background: url("../_media/theMice.jpg") no-repeat scroll center bottom rgba(0, 0, 0, 0.5);
+/*background-size: 100%;*/
+   max-height: 100%;
+    display: block;
+/*    opacity: 0.5; 
+*/}
