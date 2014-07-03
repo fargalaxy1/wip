@@ -248,6 +248,6 @@ font-family: 'TitilliumLtRegular';
 	}	
 }
 
-*, *:after, *:before {
+/**, *:after, *:before {
     -moz-box-sizing: border-box;
-}
+}*/

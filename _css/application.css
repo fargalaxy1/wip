@@ -534,6 +534,73 @@ text-align: center;
 margin-left: 15%;
 
 }
+.ribbon{
+    padding: 0 25px;
+    height: 80px;
+     
+    background: #c94700;
+    color: #301607;
+     
+    position: relative;
+    float: left;
+    clear: left;
+     
+font-family: 'Moms_typewriter'; 
+    font-size: 40px;            
+    line-height: 80px;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+    }
+.ribbon:before {
+  content: "";  
+  display: block;
+  width: 20px;
+  height: 0px;
+  
+  position: absolute;
+    right: 0;
+    bottom: 4px;
+    z-index: 10;
+  
+    border-bottom: 80px solid rgba(0, 0, 0, 0.3);
+  border-right: 80px solid transparent;
+  
+  -webkit-transform: rotate(80deg);
+    -webkit-transform-origin: right bottom;
+    -moz-transform: rotate(80deg);
+    -moz-transform-origin: right bottom;
+    -o-transform: rotate(80deg);
+    -o-transform-origin: right bottom;
+    -ms-transform: rotate(80deg);
+    -ms-transform-origin: right bottom;
+    transform: rotate(80deg);
+    transform-origin: right bottom;
+  }     
+.ribbon:after {
+
+     content: "";    
+    display: block;
+    width: 40px;
+    height: 0px;
+     
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    z-index: 20;
+     
+    border-bottom: 80px solid #de6625;
+    border-right: 80px solid transparent;
+     
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin: right bottom;
+    -moz-transform: rotate(90deg);
+    -moz-transform-origin: right bottom;
+    -o-transform: rotate(90deg);
+    -o-transform-origin: right bottom;
+    -ms-transform: rotate(90deg);
+    -ms-transform-origin: right bottom;
+    transform: rotate(90deg);
+    transform-origin: right bottom;
+    }   
 .circle {
 
   display: inline-block;
