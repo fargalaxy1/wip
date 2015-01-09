@@ -212,7 +212,6 @@ text-align: center;
     font-size: 50px;
     padding: 10px;
     border: 5px solid #3F2E2E;
- 
 }
 .stdText h3{
     color: #363145;
@@ -367,7 +366,7 @@ text-align: center;
 width: 30rem;
 float: left;
 left: 3rem;
-top: 5rem;
+top: 5%;
  }
  .scientific_sec div {
   display:block;
@@ -401,7 +400,7 @@ top: 5rem;
 width: 20rem;
 right: 3rem;
 float: right;
-top: 5rem;
+top: 5%;
  }
  .www_sec div {
   display:block;
@@ -504,7 +503,7 @@ margin-bottom: 40px;
 {
  color: #2A2B26;
  border: 5px solid #2A2B26;
-  background-color: #31B3C8;
+  /*background-color: #31B3C8;*/
   opacity: 0.8;
 text-align: center;
 }
